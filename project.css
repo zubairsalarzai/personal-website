@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+}
+body{background-color:#D0D3D4 ;}
+h1{
+ text-align:center;
+}
+/* nav bar css*/
+ #navBar{
+   position:fixed;
+    width:100%;
+    top:0;
+  
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+    background-color: #333;
+  }
+  
+  .line {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #D0D3D4;
+  }
+  
+ 
+  
+
+
+ /*projext css*/
+  #project{
+ 
+ padding: 50px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .projectNameFont{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  }
+  .projectDescriptionFont{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }
